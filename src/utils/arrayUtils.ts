@@ -1,5 +1,3 @@
-import { SSL_OP_CIPHER_SERVER_PREFERENCE } from "constants";
-
 interface Item {
   id: string
 }
