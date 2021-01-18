@@ -9,8 +9,8 @@ import './index.css';
 
 ReactDOM.render(
   <DndProvider backend={Backend}>
-  <AppStateProvider>
-    <App />
+    <AppStateProvider>
+      <App />
     </AppStateProvider>
   </DndProvider>,
   document.getElementById('root')
